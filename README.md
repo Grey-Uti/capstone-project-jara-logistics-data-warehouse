@@ -51,6 +51,7 @@ Develop a data warehouse solution (dimensional model) to consolidate deliveries,
 - Snowflake
 - MongoDB
 - Data Build Tool (DBT)
+- Git Hub (For collaboration and sharing)
 
 
 #### Specifications
