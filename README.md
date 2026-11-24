@@ -1,6 +1,6 @@
 
 # Capstone Project jara logistics Data Warehouse (10Alytics)
-My personal portfolio project to demonstrate the development of a data warehouse solution with Snowflake, DBT, including data modelling, and analytics.
+10Alytics Data Engineering project to demonstrate the development of a data warehouse solution with Snowflake, DBT, including data modelling, and analytics.
 
 ---
 ## 🚀 Project Requirements
