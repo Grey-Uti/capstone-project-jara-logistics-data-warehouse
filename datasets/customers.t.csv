@@ -1,0 +1,61 @@
+customer_id,full_name,city,tier,signup_date
+4001,Idris Adeleke,Lagos,basic,2025-06-20
+4002,Halima Hassan,Lagos,basic,2025-08-24
+4003,Kelechi Adeleke,Lagos,basic,2025-03-26
+4004,Chuka Hassan,Ibadan,plus,2025-01-04
+4005,Chuka Adeyemi,Lagos,basic,2025-01-05
+4006,Bola Obi,Port Harcourt,premium,2025-02-11
+4007,Damilola Adeleke,Kano,basic,2025-04-22
+4008,Bola Ibrahim,Abuja,plus,2025-06-26
+4009,Yetunde Hassan,Lagos,plus,2025-06-22
+4010,Nkechi Hassan,Lagos,basic,2025-05-21
+4011,Gbenga Nwankwo,Ibadan,basic,2025-05-23
+4012,Temi Balogun,Lagos,plus,2025-07-20
+4013,Chuka Hassan,Lagos,basic,2025-07-30
+4014,Ifeoma Okafor,Lagos,basic,2025-03-05
+4015,Adaeze Mwangi,Lagos,basic,2025-01-22
+4016,Amaka Abiola,Ibadan,premium,2025-09-18
+4017,Niyi Chukwu,Abuja,basic,2025-09-05
+4018,Nkechi Hassan,Lagos,plus,2025-01-01
+4019,Sani Chukwu,Kano,plus,2025-04-01
+4020,Nkechi Olawale,Lagos,premium,2025-01-11
+4021,Idris Mwangi,Abuja,basic,2025-03-26
+4022,Adaeze Okafor,Port Harcourt,basic,2025-03-29
+4023,Ifeoma Hassan,Lagos,basic,2025-07-04
+4024,Damilola Bello,Lagos,basic,2025-08-23
+4025,Damilola Adeyemi,Kano,basic,2025-06-12
+4026,Ngozi Sule,Lagos,premium,2025-05-13
+4027,Sani Mwangi,Port Harcourt,plus,2025-05-03
+4028,Ngozi Mwangi,Kano,basic,2025-01-12
+4029,Gbenga Okafor,Lagos,basic,2025-09-11
+4030,Temi Bello,Ibadan,plus,2025-07-26
+4031,Adaeze Chukwu,Lagos,basic,2025-02-27
+4032,Sani Chukwu,Lagos,plus,2025-01-06
+4033,Obinna Eze,Lagos,premium,2025-09-17
+4034,Ifeoma Chukwu,Ibadan,basic,2025-08-25
+4035,Adaeze Chukwu,Lagos,basic,2025-02-01
+4036,Rukayat Sule,Abuja,basic,2025-07-11
+4037,Segun Ibrahim,Lagos,basic,2025-03-10
+4038,Nkechi Hassan,Port Harcourt,basic,2025-03-27
+4039,Idris Danjuma,Lagos,basic,2025-06-25
+4040,Ada Danjuma,Lagos,premium,2025-04-27
+4041,Niyi Adeyemi,Abuja,plus,2025-03-20
+4042,Obinna Abiola,Lagos,plus,2025-06-06
+4043,Niyi Bello,Port Harcourt,basic,2025-05-21
+4044,Uche Mwangi,Port Harcourt,basic,2025-08-29
+4045,Adaeze Bello,Lagos,basic,2025-08-09
+4046,Zainab Adeleke,Ibadan,plus,2025-08-05
+4047,Uche Adeyemi,Abuja,plus,2025-04-17
+4048,Chuka Nwankwo,Lagos,plus,2025-05-17
+4049,Musa Adeyemi,Kano,plus,2025-01-20
+4050,Temi Ogundipe,Port Harcourt,premium,2025-02-11
+4051,Idris Chukwu,Lagos,premium,2025-05-29
+4052,Obinna Okonkwo,Lagos,plus,2025-02-12
+4053,Gbenga Olawale,Ibadan,basic,2025-07-20
+4054,Gbenga Yusuf,Kano,plus,2025-05-17
+4055,Niyi Nwankwo,Lagos,basic,2025-05-07
+4056,Ngozi Sule,Abuja,basic,2025-01-29
+4057,Ifeoma Nwankwo,Lagos,plus,2025-04-18
+4058,Musa Sule,Lagos,plus,2025-06-15
+4059,Bisi Chukwu,Lagos,basic,2025-04-12
+4060,Niyi Ogundipe,Ibadan,basic,2025-05-06

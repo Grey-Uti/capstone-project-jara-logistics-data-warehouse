@@ -1,0 +1,122 @@
+version: 2
+
+models:
+  - name: stg_deliveries
+    description: >
+      One row per delivery. Duplicates removed, statuses standardised.
+    columns:
+      - name: delivery_id
+        description: Unique ID for the order.
+        tests:
+          - unique
+          - not_null
+
+      - name: status
+        description: One of three values. Nothing else is allowed.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['delivered', 'failed', 'cancelled']
+
+      - name: customer_id
+        description: Must be a customer that actually exists.
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+              config:
+                severity: warn
+
+      - name: rider_id
+        description: Must be a rider that actually exists.
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_riders')
+                field: rider_id
+              config:
+                severity: warn
+
+      - name: distance_km
+        description: The recorded delivery distance (km).
+        tests:
+          - not_null
+
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_riders
+    columns:
+      - name: rider_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_ticket_weekly_volume_category
+    columns:
+      - name: category
+        description: One of six values. Nothing else is allowed.
+        tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - damaged_item
+                  - delivery_failed
+                  - late_delivery
+                  - refund_request
+                  - wrong_address
+                  - rider_conduct
+
+      - name: ticket_volume
+        tests:
+          - not_null
+
+  - name: fct_deliveries
+    description: One row per day. The table the board reads.
+    columns:
+      - name: created_at
+        tests:
+          - not_null
+
+      - name: cost
+        tests:
+          - not_null
+
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_riders
+    columns:
+      - name: rider_id
+        tests:
+          - unique
+          - not_null
+
+  - name: agg_delivery_cost_by_fleet
+    columns:
+      - name: fleet
+        tests:
+          - not_null
+
+      - name: delivery_count
+        tests:
+          - not_null
+
+      - name: total_delivery_cost
+        tests:
+          - not_null
+
+  - name: agg_ticket_volume
+    columns:
+      - name: ticket_volume
+        tests:
+          - not_null

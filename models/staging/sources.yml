@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: jara_raw
+    database: JARA_DB
+    schema: RAW
+    tables:
+      - name: deliveries
+      - name: customers
+      - name: riders
+      - name: ticket_weekly_volume_category

@@ -1,0 +1,35 @@
+rider_id,rider_name,vehicle_type,fleet,base_city,joined_date
+701,Gbenga Mwangi,bike,own,Lagos,2025-01-10
+702,Amaka Adeleke,bike,own,Port Harcourt,2025-03-26
+703,Tunde Nwankwo,bike,own,Abuja,2025-07-09
+704,Adaeze Mwangi,bike,own,Port Harcourt,2025-09-23
+705,Tunde Adeleke,bike,own,Abuja,2025-02-24
+706,Kelechi Obi,bike,own,Ibadan,2025-08-27
+707,Niyi Nnamdi,bike,own,Abuja,2025-07-25
+708,Ada Adeleke,van,own,Lagos,2025-02-02
+709,Uche Chukwu,bike,own,Ibadan,2025-07-12
+710,Aisha Okafor,bike,own,Lagos,2025-06-22
+711,Bisi Balogun,van,own,Ibadan,2025-05-22
+712,Sani Obi,bike,own,Kano,2025-03-17
+713,Ifeoma Okafor,bike,own,Port Harcourt,2025-05-04
+714,Halima Yusuf,bike,own,Lagos,2025-07-21
+715,Ngozi Abiola,bike,own,Lagos,2025-01-22
+716,Idris Ogundipe,bike,own,Abuja,2025-07-16
+717,Uche Mwangi,bike,own,Ibadan,2025-03-28
+718,Adaeze Nnamdi,bike,own,Abuja,2025-03-24
+719,Bola Adeyemi,bike,own,Lagos,2025-07-27
+720,Zainab Bello,bike,own,Port Harcourt,2025-08-04
+721,Uche Sule,bike,partner,Lagos,2025-08-27
+722,Rukayat Mwangi,van,partner,Lagos,2025-03-13
+723,Bola Obi,bike,partner,Abuja,2025-08-04
+724,Sani Okonkwo,bike,partner,Lagos,2025-03-17
+725,Gbenga Ibrahim,bike,partner,Ibadan,2025-03-29
+726,Gbenga Obi,bike,partner,Port Harcourt,2025-04-09
+727,Halima Chukwu,van,partner,Kano,2025-06-18
+728,Femi Nwankwo,bike,partner,Abuja,2025-04-27
+729,Damilola Adeyemi,tricycle,partner,Lagos,2025-04-30
+730,Musa Olawale,bike,partner,Lagos,2025-09-20
+731,Obinna Obi,bike,partner,Port Harcourt,2025-09-08
+732,Rukayat Ogundipe,bike,partner,Lagos,2025-05-31
+733,Niyi Adeleke,van,partner,Abuja,2025-06-12
+734,Idris Danjuma,van,partner,Kano,2025-07-13
